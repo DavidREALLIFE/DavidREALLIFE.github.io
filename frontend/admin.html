@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin - CyberSecure Pro</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container form-card">
+    <h2>Panel de administración</h2>
+    <p>Acceso restringido (pero existe una ruta secreta conocida: <code>/secret-admin-path</code>)</p>
+    <form action="/admin/login" method="POST">
+      <label>Admin Key: <input type="text" name="key"></label>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
